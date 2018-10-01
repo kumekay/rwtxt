@@ -1,4 +1,4 @@
-module github.com/schollz/rwtxt
+module github.com/kumekay/rwtxt
 
 require (
 	github.com/DavidBelicza/TextRank v2.1.1+incompatible

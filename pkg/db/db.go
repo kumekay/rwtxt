@@ -12,8 +12,8 @@ import (
 	"time"
 
 	log "github.com/cihub/seelog"
+	"github.com/kumekay/rwtxt/pkg/utils"
 	"github.com/pkg/errors"
-	"github.com/schollz/rwtxt/pkg/utils"
 	"github.com/schollz/sqlite3dump"
 	"github.com/schollz/versionedtext"
 )

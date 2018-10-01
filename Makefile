@@ -43,5 +43,5 @@ release:
 	docker pull karalabe/xgo-latest
 	go get github.com/karalabe/xgo
 	mkdir -p bin
-	xgo -go $(shell go version) -dest bin ${LDFLAGS} -targets linux/amd64,linux/arm-6,darwin/amd64,windows/amd64 github.com/schollz/rwtxt/cmd/rwtxt
+	xgo -go $(shell go version) -dest bin ${LDFLAGS} -targets linux/amd64,linux/arm-6,darwin/amd64,windows/amd64 github.com/kumekay/rwtxt/cmd/rwtxt
 	# cd bin && upx --brute kiki-linux-amd64
